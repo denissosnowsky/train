@@ -66,13 +66,13 @@ var stations = {
             time: ['22:20', '22:27'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'rivne_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights1',
         },
         {
             time: ['04:50', '04:54'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'rivne_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights1',
         }
     ],
     'zdolbuniv': [
@@ -94,13 +94,13 @@ var stations = {
             time: ['22:27', '22:29'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'ostroh_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         },
         {
             time: ['03:48', '03:50'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'ostroh_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         }
     ],
     'kryvyn': [
@@ -108,13 +108,13 @@ var stations = {
             time: ['23:44', '23:46'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'kryvyn_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         },
         {
             time: ['03:30', '03:32'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'kryvyn_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         }
     ],
     'slavuta': [
@@ -122,13 +122,13 @@ var stations = {
             time: ['23:58', '23:59'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'slavuta_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         },
         {
             time: ['03:16', '03:18'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'slavuta_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         }
     ],
     'shepetivka': [
@@ -136,13 +136,13 @@ var stations = {
             time: ['00:23', '00:43'],
             days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
             stationClass: 'shepetivka_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights1',
         },
         {
             time: ['02:44', '02:54'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'shepetivka_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights1',
         }
     ],
     'polonne': [
@@ -150,13 +150,13 @@ var stations = {
             time: ['01:14', '01:16'],
             days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
             stationClass: 'polonne_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         },
         {
             time: ['02:08', '02:10'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'polonne_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         }
     ],
     'pechanivka': [
@@ -164,13 +164,13 @@ var stations = {
             time: ['01:37', '01:39'],
             days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
             stationClass: 'pechanivka_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         },
         {
             time: ['01:39', '01:41'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'pechanivka_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         }
     ],
     'chudniv_volynsky': [
@@ -178,13 +178,13 @@ var stations = {
             time: ['02:01', '02:03'],
             days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
             stationClass: 'chudniv_volynsky_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         },
         {
             time: ['01:11', '01:13'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'chudniv_volynsky_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         }
     ],
     'berdychiv': [
@@ -192,13 +192,13 @@ var stations = {
             time: ['02:39', '02:49'],
             days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
             stationClass: 'berdychiv_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         },
         {
             time: ['00:20', '00:33'],
             days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29],
             stationClass: 'berdychiv_night',
-            lightsClass: 'lights2',
+            lightsClass: 'lights3',
         }
     ],
     'kozyatyn': [
@@ -244,6 +244,103 @@ var stations = {
         }
     ],
 };
+
+var train = {
+    'train_without': [
+        {
+            time: ['06:18', '06:30'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+        {
+            time: ['06:57', '07:05'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+        {
+            time: ['08:50', '18:00'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+        {
+            time: ['19:43', '19:50'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+        {
+            time: ['20:22', '20:30'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+        {
+            time: ['03:20', '03:30'],
+            days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+        },
+        {
+            time: ['06:15', '20:50'],
+            days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+        },
+        {
+            time: ['23:33', '23:45'],
+            days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+        },
+    ],
+    /* 'train_chs4_left': [
+        {
+            time: ['06:30', '06:57'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+        {
+            time: ['18:00', '19:40'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+        {
+            time: ['20:30', '22:00'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+        {
+            time: ['22:00', '23:59'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+        {
+            time: ['00:00', '03:20'],
+            days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+        },
+        {
+            time: ['20:50', '22:00'],
+            days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+        },
+        {
+            time: ['22:00', '23:33'],
+            days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+        },
+    ],
+    'train_chs4_right': [
+        {
+            time: ['07:05', '08:50'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+        {
+            time: ['19:58', '20:22'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+        {
+            time: ['03:30', '05:00'],
+            days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+        },
+        {
+            time: ['05:00', '06:15'],
+            days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+        },
+        {
+            time: ['23:45', '23:59'],
+            days: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30],
+        },
+        {
+            time: ['00:00', '05:00'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+        {
+            time: ['05:00', '06:18'],
+            days: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31],
+        },
+    ], */
+}
 
 var trains = {
     '088': [
@@ -300,12 +397,30 @@ var trains = {
 checkStation();
 checkTrain();
 checkPeriod();
+checkWithout();
 
 setInterval(function() {
     checkStation();
     checkTrain();
     checkPeriod();
+    checkWithout();
 }, 5000);
+
+function checkWithout() {
+    var isWithout = false;
+    $.each(train, function(i, elem) {
+        $.each(train[i], function(y, elem) {
+            if (isAvailable(train[i][y]['time'][0], train[i][y]['time'][1], train[i][y]['days'])) {
+                $("#game").attr('data-without', 'without');
+                isWithout = true;
+                return false;
+            }
+        });
+        if (!isWithout) {
+            $("#game").attr('data-without', '');
+        }
+    });
+}
 
 function checkStation() {
     var selectedStation = false;
@@ -330,6 +445,7 @@ function checkStation() {
 
 function checkTrain() {
     $("#train").attr("class", "train_chs4_kyiv");
+    //$('#game').attr('data-direction', 'without');
     $.each(trains, function(i, elem) {
         //console.log(i); // потяг
         $.each(trains[i], function(y, elem) {
@@ -337,7 +453,6 @@ function checkTrain() {
                 if (isAvailable(trains[i][y]['run'][x][0], trains[i][y]['run'][x][1], trains[i][y]['days'])) {
                     $("#train").attr("class", "train_chs4_kyiv runtrain");
                     $('#game').attr('data-direction', trains[i][y]['run'][x][2]);
-                    //console.log('yes');
                     return false;
                 }
             });

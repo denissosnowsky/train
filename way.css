@@ -16,25 +16,25 @@ audio {
 }
 
 audio::-webkit-media-controls-panel,
-      audio::-webkit-media-controls-mute-button,
-      audio::-webkit-media-controls-play-button,
-      audio::-webkit-media-controls-timeline-container,
-      audio::-webkit-media-controls-current-time-display,
-      audio::-webkit-media-controls-time-remaining-display,
-      audio::-webkit-media-controls-timeline,
-      audio::-webkit-media-controls-volume-slider-container,
-      audio::-webkit-media-controls-volume-slider,
-      audio::-webkit-media-controls-seek-back-button,
-      audio::-webkit-media-controls-seek-forward-button,
-      audio::-webkit-media-controls-fullscreen-button,
-      audio::-webkit-media-controls-rewind-button,
-      audio::-webkit-media-controls-return-to-realtime-button,
-      audio::-webkit-media-controls-toggle-closed-captions-button {
-        background: red;
-        color: red;
-        opacity: 10%;
-  
-      }
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-timeline-container,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-volume-slider-container,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-seek-back-button,
+audio::-webkit-media-controls-seek-forward-button,
+audio::-webkit-media-controls-fullscreen-button,
+audio::-webkit-media-controls-rewind-button,
+audio::-webkit-media-controls-return-to-realtime-button,
+audio::-webkit-media-controls-toggle-closed-captions-button {
+  background: red;
+  color: red;
+  opacity: 10%;
+
+}
 
 .information {
   font-family: Arial;
@@ -317,8 +317,8 @@ audio::-webkit-media-controls-panel,
   transition: 2s;
 }
 
-.train_without {
-  background: url("pictures/train_without.png") no-repeat center;
+.train_chs4_left {
+  background: url("pictures/train_chs4_left.png") no-repeat center;
   background-size: contain;
   position: absolute;
   left: 50%;
@@ -328,8 +328,8 @@ audio::-webkit-media-controls-panel,
   height: 135px;
 }
 
-.train_without_night[data-period="night"] {
-  background: url("pictures/train_without_night.png") no-repeat center;
+.train_chs4_right {
+  background: url("pictures/train_chs4_right.png") no-repeat center;
   background-size: contain;
   position: absolute;
   left: 50%;
@@ -416,9 +416,40 @@ audio::-webkit-media-controls-panel,
   height: 135px;
 }
 
-.hide_object {
-
+#game[data-period="day"][data-without="without"] #train {
+  background: url("pictures/train_without.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  bottom: 33.5%;
+  width: 1280px;
+  height: 135px;
 }
+
+#game[data-period="evening"][data-without="without"] #train {
+  background: url("pictures/train_without_evening.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  bottom: 33.5%;
+  width: 1280px;
+  height: 135px;
+}
+
+#game[data-period="night"][data-without="without"] #train {
+  background: url("pictures/train_without_night.png") no-repeat center;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  bottom: 33.5%;
+  width: 1280px;
+  height: 135px;
+}
+
+.hide_object {}
 
 hr {
   height: 7px;
@@ -451,7 +482,7 @@ hr {
 }
 
 .runtrain {
-	animation: runtrain .7s linear alternate infinite;
+  animation: runtrain .7s linear alternate infinite;
 }
 
 #game[data-run="false"] #wallpaper {
@@ -460,26 +491,46 @@ hr {
 
 @keyframes runtrain {
   100% {
-      -webkit-transform: translateY(-4px);
-    }
+    -webkit-transform: translateY(-4px);
+  }
 }
 
 @keyframes runwallpaper {
- from { background-position: -14000px 100%, 0 0;}
- to { background-position: 0 100%, 0 0; }
+  from {
+    background-position: -14000px 100%, 0 0;
+  }
+
+  to {
+    background-position: 0 100%, 0 0;
+  }
 }
 
 @keyframes runwallpaperslow {
- from { background-position: -14000px 100%, 0 0;}
- to { background-position: 0 100%, 0 0; }
+  from {
+    background-position: -14000px 100%, 0 0;
+  }
+
+  to {
+    background-position: 0 100%, 0 0;
+  }
 }
 
 @keyframes runwallpaperback {
- from { background-position: 14000px 100%, 0 0;}
- to { background-position: 0 100%, 0 0; }
+  from {
+    background-position: 14000px 100%, 0 0;
+  }
+
+  to {
+    background-position: 0 100%, 0 0;
+  }
 }
 
 @keyframes runwallpaperbackslow {
- from { background-position: 14000px 100%, 0 0;}
- to { background-position: 0 100%, 0 0; }
+  from {
+    background-position: 14000px 100%, 0 0;
+  }
+
+  to {
+    background-position: 0 100%, 0 0;
+  }
 }
